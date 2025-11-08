@@ -100,7 +100,7 @@ export default function useFlyerRenderer({ items, title, footer, size, template 
 
       // Icon
       ctx.font = Math.floor(rowH * 0.8) + 'px "Segoe UI Emoji", Apple Color Emoji, Noto Color Emoji';
-      ctx.fillText(it.icono || "", left + r * 0, y + r * 0.1);
+      ctx.fillText(it.icono || "🫛", left + r * 0, y + r * 0.1);
 
       // Item name
       const nameX = 20 + left + r * 2 + 10;

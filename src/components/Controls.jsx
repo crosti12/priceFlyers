@@ -58,9 +58,6 @@ export default function Controls({
             <option value="">Selecciona un ícono</option>
             <option value="🍅">🍅 Tomate</option>
             <option value="🥕">🥕 Zanahoria</option>
-            <option value="🥬">🥬 Lechuga</option>
-            <option value="🥦">🥦 Brócoli</option>
-            <option value="🌽">🌽 Maíz</option>
             <option value="🍆">🍆 Berenjena</option>
             <option value="🥒">🥒 Pepino</option>
             <option value="🧄">🧄 Ajo</option>
@@ -68,6 +65,8 @@ export default function Controls({
             <option value="🥔">🥔 Papa</option>
             <option value="🌶️">🌶️ Ají</option>
             <option value="🫑">🫑 Pimentón</option>
+            <option value="🍌">🍌 Platano</option>
+            <option value="🍉">🍉 Patilla</option>
           </select>
           <button className="deleteBtn" onClick={() => removeItem(item.id)}>
             🗑️
